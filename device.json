@@ -1,0 +1,74 @@
+{"module_type" : "hs",
+"control" : {
+"light" :[{
+          "light_control" : "1",
+          "make" : "knx",
+          "model" : "123",
+          "control" : "ip",   
+          "ip" : "192.168.0.9",
+          "port" : "8000",
+          "light_id_list" : [{
+                              "light_id":"1",
+                              "type":"dimmer",
+                              "room":"1",
+                              "name": "bed left"
+                             },
+                             {
+                              "light_id":"2",
+                              "type":"onoff",
+                              "room":"1",
+                              "name": "bed right"}
+                             ,
+                             {
+                              "light_id":"3",
+                              "type":"dimmer",
+                              "room":"2",
+                              "name": "main light"
+                              }]
+},
+{
+          "light_control" : "2",
+          "make" : "zwave",
+          "model" : "123",
+          "control" : "ip",
+          "ip" : "192.168.0.9",
+          "port" : "8000"
+}],
+
+"ac" :  [{
+          "room" : "1",
+          "make" : "diken",
+          "model" : "123",
+          "control" : "ip",
+          "ip" : "192.168.0.9",
+          "port" : "8000"
+}]
+,
+"curtain" : [ {
+          "room" : "1",
+          "make" : "somfy",
+          "model" : "121",
+          "control" : "ip",
+          "ip" : "192.168.0.10",
+          "port" : "8000"
+},
+{
+          "room" : "2",
+          "make" : "somfy",
+          "model" : "122",
+          "control" : "ip",
+          "ip" : "192.168.0.11",
+          "port" : "8002"
+}
+]
+}
+,
+"tv": [{
+          "room" : "1",
+          "make" : "airtel",
+          "model" : "2017",
+          "control" : "ir",
+          "port" : "1"
+}
+]
+}
